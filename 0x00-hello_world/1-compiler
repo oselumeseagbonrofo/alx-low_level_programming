@@ -1,2 +1,2 @@
 #!/bin/bash
-export $CFILE=main.c | echo gcc -S main.c>"main.o"
+ echo gcc -S $CFILE>"main.o"
