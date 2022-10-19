@@ -1,2 +1,2 @@
 #!/bin/bash
- echo gcc -S $CFILE>"$CFILE.o"
+ gcc -c $CFILE>"$CFILE.o"
